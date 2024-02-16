@@ -1,0 +1,125 @@
+Saved/
+LocalBuilds/
+_.csproj._
+.vs/\*
+.vs/
+.idea/\*
+.idea/
+/.vscode
+.vsconfig
+_.pdb
+_.suo
+_.opensdf
+_.sdf
+_.tmp
+_.mdb
+obj/
+_.vcxproj
+_.sln
+_-Debug._
+FileOpenOrder/
+_.xcworkspace
+_.xcodeproj
+./Makefile
+./CMakeLists.txt
+.ue4dependencies
+Samples/_
+FeaturePacks/_
+Templates/_
+Engine/Documentation/_
+
+# Engine intermediates
+
+Engine/Intermediate/\*
+Intermediate/
+
+# Intermediate folders for programs should not be checked in
+
+Engine\Programs\*\Intermediate\*
+
+# Intermediate folders created for various C# programs
+
+Engine\Source\Programs\*\obj\*
+
+# Saved folders for programs should not be checked in
+
+Engine\Programs\*\Saved\*
+Engine\Programs\UnrealBuildTool\*
+
+# Binaries of the game should never be checked in (only because no artist work on the project)
+
+Binaries/
+
+# Derived data cache should never be checked in
+
+Engine/DerivedDataCache/\*
+
+# Ignore any build receipts
+
+Engine/Build/Receipts/\*
+
+# Ignore personal workspace vars
+
+p4config.txt
+
+# Ignore Unix backup files
+
+\*~
+
+# Ignore Mac desktop services store files
+
+.DS_Store
+
+# Ignore crash reports
+
+crashinfo--\*
+
+# Ignore linux project files
+
+_.user
+_.pro
+_.pri
+_.kdev4
+
+# Obj-C/Swift specific
+
+_.hmap
+_.ipa
+_.dSYM.zip
+_.dSYM
+
+# Ignore documentation generated for C# tools
+
+Engine/Binaries/DotNET/UnrealBuildTool.xml
+Engine/Binaries/DotNET/AutomationScripts/BuildGraph.Automation.xml
+
+# Ignore version files in the Engine/Binaries directory created by UBT
+
+/Engine/Binaries/\*_/_.version
+
+# Ignore exp files in the the Engine/Binaries directory as they aren't C/C++ source files
+
+/Engine/Binaries/\*_/_.exp
+
+# Ignore Swarm local save files
+
+Engine/Binaries/DotNET/SwarmAgent.DeveloperOptions.xml
+Engine/Binaries/DotNET/SwarmAgent.Options.xml
+
+# Intermediary Files
+
+_.target.xml
+_.exe.config
+\*.exe.manifest
+
+# Ignore project-specific files
+
+# GAMEPROJECT/Build/Receipts/\*
+
+# GAMEPROJECT/DerivedDataCache/\*
+
+# GAMEPROJECT/Binaries/_-Shipping._
+
+# GAMEPROJECT/Intermediate/\*
+
+.idea/
